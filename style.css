@@ -1,0 +1,120 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center container */
+.container {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Weather card */
+.weather-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 360px;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* App title */
+.app-name {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Input field */
+#city-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 0.6rem;
+}
+
+#city-input:focus {
+  border-color: #4facfe;
+}
+
+/* Button */
+#city-input-btn {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #4facfe;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#city-input-btn:hover {
+  background: #379ae6;
+}
+
+/* Error message */
+#wrong-input-city {
+  margin-top: 0.5rem;
+  color: #e63946;
+  font-size: 0.9rem;
+  min-height: 1em;
+}
+
+
+/* City name */
+#city-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+  padding-bottom: 5px;
+}
+
+/* Date */
+#date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  
+}
+
+/* Weather icon */
+#weather-icon {
+  width: 90px;
+  height: 90px;
+}
+
+/* Temperature */
+#temperature {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Description & wind */
+#description,
+#wind-speed {
+  font-size: 0.95rem;
+  color: #7c2d2d;
+  margin-top: 0.2rem;
+}
